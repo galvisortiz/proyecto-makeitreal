@@ -1,16 +1,15 @@
 .canales{
-    /*background-color: #19171D; */
+   background-color:black;
+   color: white;
     height: 500px;
     width: 150px;
+    
 }
-.ventana{
-    /*background-color: #19171D;*/
-    height: 500px;
-    width: 500px;
-}
+
+
 #div1{
     float:left;
-    border: 1px solid black;
+    border: 1px solid navy;
     }
 #div2{
     float:left;
@@ -18,22 +17,30 @@
     background-size: #757477;
     /*position:absolute; top:0; left:0;*/
     }
-
+    li{
+        background-image: none;
+    }
+   #input{
+       width: 400px;
+       margin: auto;
+       background-color: lawngreen;
+   }
     #chatbox {
         float:left;
         text-align:left;
         margin:0 auto;
         margin-bottom:25px;
         padding:10px;
-        background:#fff;
+        background-color: black;
+        color: white;
         height:500px;
         width:430px;
         border:1px solid black;
         overflow:auto; } 
 
         #numeral{
-            width: 50px; 
-            width:15px;
+            width: 8px; 
+            width:8px;
         }
         li{list-style-type: none;
         
