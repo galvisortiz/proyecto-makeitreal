@@ -38,9 +38,10 @@
         border:1px solid black;
         overflow:auto; } 
 
-        #numeral{
-            width: 8px; 
-            width:8px;
+       .tamaño{
+            width: 10px; 
+            width:10px;
+            
         }
         li{list-style-type: none;
         
