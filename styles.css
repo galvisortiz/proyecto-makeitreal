@@ -2,7 +2,7 @@
    background-color:black;
    color: white;
     height: 500px;
-    width: 150px;
+    width: 190px;
     
 }
 .salto{
@@ -21,9 +21,6 @@
     background-size: #757477;
     /*position:absolute; top:0; left:0;*/
     }
-    li{
-        background-image: none;
-    }
    #input{
        width: 400px;
        margin: auto;
@@ -37,16 +34,23 @@
         padding:10px;
         background-color: black;
         color: white;
-        height:500px;
+        height:480px;
         width:430px;
         border:1px solid black;
         overflow:auto; } 
 
-       .tamaño{
-            width: 10px; 
-            width:10px;
+       #img{
+        width: 10px; 
+        width:10px; 
             
         }
         li{list-style-type: none;
         
         }
+        /*
+       .imagen{
+        width: 10px; 
+        width:10px; 
+        list-style-image: url("img/numeral.jpg");
+        list-style-position: inherit;      
+       } */
