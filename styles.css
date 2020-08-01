@@ -5,7 +5,11 @@
     width: 150px;
     
 }
-
+.salto{
+    font-size: 10px;
+   display: block;
+    
+}
 
 #div1{
     float:left;
