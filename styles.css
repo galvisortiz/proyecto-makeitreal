@@ -19,7 +19,6 @@
     .chatbox {
         float:left;
         text-align:left;
-
         background-color: black;
         color: white;
         height:500px;
@@ -33,5 +32,6 @@
         }
         
        .imagen{
-        list-style-image: url("img/prueba.jpg");             
+        list-style-image: url("img/prueba.jpg");      
+              
        } 
