@@ -1,30 +1,63 @@
+body{
+    margin: 0;
+   
+    
+}
 .canales{
-   background-color:black;
-   color: white;
+    background-color:#02050c;
+   color: #757477;
     height: 500px;
     width: 190px;
     float:left;
-    border: 1px solid navy;
+   border: 1px solid navy;
+   border-radius: 5px;
+   padding: 5px;
+   margin: 0 auto;
+   
+}
+.canales li:hover{
+    background:#222529;
+}
+.salto li:hover{
+    background-color: dimgrey;
 }
 .salto{
     font-size: 10px;
    display: block;
     
 }
-   .input{
+   .input[text]{
        width: 400px;
+       height: 40px;
+       border: 1px solid #747779;
        margin: auto;
-       background-color: lawngreen;
+       border-radius: 5px;
+       background: #222529;
+       color: #656769;
    }
+   .input[submit]{
+    width: 400px;
+    height: 40px;
+    border: 1px solid grey;
+    margin: auto;
+    border-radius: 5px;
+    cursor: pointer;
+}
     .chatbox {
-        float:left;
-        text-align:left;
         background-color: black;
         color: white;
         height:500px;
         width:430px;
+        float:left;
         border:1px solid black;
-        overflow:auto;
+        border-radius: 5px;
+        padding: 5px;
+        margin: 0 auto;
+        
+       
+       /* text-align:left;
+        overflow:auto;*/
+        
     } 
 
         li{
